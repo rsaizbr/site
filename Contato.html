@@ -48,35 +48,28 @@
       </div>
     </div>
   </div>
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p class="">&lt;script type="text/javascript" src="https://form.jotformz.com/jsform/61916420348657"&gt;&lt;/script&gt;</p>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="bg-faded p-y-3 section">
     <div class="container">
       <div class="row text-xs-left">
         <div class="col-md-10 col-md-offset-1 p-y-3">
-          <h1 class="pi-draggable pi-item text-xs-center">Preencha o formulário abaixo!</h1>
-          <form style="">
-            <fieldset class="form-group">
-              <label for="exampleInputEmail1">Seu Nome</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Seu nome">
-            </fieldset>
-            <fieldset class="form-group">
-              <label for="exampleInputEmail1">Endereço de Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Seu email">
-            </fieldset>
-            <div class="form-group text-nowrap">
-              <label>Mensagem</label>
-              <input type="text" class="form-control" placeholder="Comentário">
+
+          <div id="newsletter_block_left" class="block">
+            <h4>Newsletter</h4>
+            <div class="block_content">
+              <form action="//rsaizfilmes.esy.es/index.php" method="post">
+                <div class="form-group">
+                  <input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Digite seu e-mail">
+                  <button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
+                    <span>Ok</span>
+                  </button>
+                  <input type="hidden" name="action" value="0">
+                </div>
+              </form>
             </div>
-            <button type="submit" class="btn btn-lg btn-primary">Enviar</button>
-          </form>
+
+          </div>
+
+
         </div>
       </div>
     </div>
@@ -112,6 +105,10 @@
   </div>
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
+
+
+
 
 
 </body>
